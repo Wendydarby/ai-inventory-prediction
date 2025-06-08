@@ -1,0 +1,9 @@
+
+```text name=requirements.txt
+pandas
+numpy
+scikit-learn
+tensorflow
+keras
+plotly
+statsmodels
