@@ -2,6 +2,7 @@
 
 Implements demand forecasting models (Linear Regression, Random Forest, LSTM),
 ensembling, and prediction with confidence intervals.
+see MS Learn Module on training regression models. https://learn.microsoft.com/en-us/training/modules/train-evaluate-regression-models/
 """
 
 def train_models(X_train, y_train):
