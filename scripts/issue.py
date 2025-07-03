@@ -8,7 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=Path(__file__).resolve().parent.parent / ".env")
 # === CONFIGURATION ===
-GITHUB_REPO = "hudsontm/ai-inventory-prediction"  # Replace with your GitHub repo
+GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")  
+GITHUB_REPONAME = os.getenv("GITHUB_REPONAME")  
+GITHUB_REPO = f"{GITHUB_USERNAME}/{GITHUB_REPONAME}"
 REPO_PATH = Path(".")  # Use current directory or provide absolute path
 INCLUDE_EXTENSIONS = {".py", ".txt", ".ts"}  # Adjust as needed
 
