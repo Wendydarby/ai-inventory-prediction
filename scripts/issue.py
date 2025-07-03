@@ -8,13 +8,13 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=Path(__file__).resolve().parent.parent / ".env")
 # === CONFIGURATION ===
-GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")  
-GITHUB_REPONAME = os.getenv("GITHUB_REPONAME")  
+GITHUB_USERNAME = os.getenv("GH_USERNAME")  
+GITHUB_REPONAME = os.getenv("GH_REPO_NAME")  
 GITHUB_REPO = f"{GITHUB_USERNAME}/{GITHUB_REPONAME}"
 REPO_PATH = Path(".")  # Use current directory or provide absolute path
 INCLUDE_EXTENSIONS = {".py", ".txt", ".ts"}  # Adjust as needed
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN") #you wll have to manually generate this locally
+GITHUB_TOKEN = os.getenv("GH_API_TOKEN") #you wll have to manually generate this locally
 '''
 Instructions:
 Generate a github token for the repository, giving it read and write access to issues.
