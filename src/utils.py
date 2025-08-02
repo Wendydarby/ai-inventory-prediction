@@ -1,7 +1,7 @@
 """Utility functions and helper methods."""
 
 import pandas as pd
-from typing import Any
+from typing import Any, Dict
 
 def validate_input(data: Any) -> bool:
     """Validate input data format."""
