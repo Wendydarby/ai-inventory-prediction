@@ -5,4 +5,3 @@ tensorflow
 keras
 plotly
 statsmodels
-dotenv
