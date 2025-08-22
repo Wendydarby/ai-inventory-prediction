@@ -1,5 +1,5 @@
 
-```text name=requirements.txt
+```text name==requirements.txt
 pandas
 numpy
 scikit-learn
