@@ -3,5 +3,7 @@ __pycache__/
 .env
 *.env
 .DS_Store
-data/
+data/*
+# But keep the folder itself and any placeholder files
+!data/.gitkeep
 models/
